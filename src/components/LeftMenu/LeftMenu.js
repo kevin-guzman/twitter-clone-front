@@ -42,7 +42,7 @@ export default function LeftMenu(props) {
         <FontAwesomeIcon icon={faPowerOff} /> Cerrar sesión
       </Link>
 
-      <Button onClick={() => setShowModal(true)}>Twittoar</Button>
+      <Button onClick={() => setShowModal(true)}>Twitteaaar</Button>
 
       <TweetModal show={showModal} setShow={setShowModal} />
     </div>
